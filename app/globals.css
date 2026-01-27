@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Deep Background - Dark Teal/Navy */
+    --background: 185 85% 2%;
+    --foreground: 180 20% 98%;
+
+    /* The Primary Glow - Electric Cyan */
+    --primary: 180 100% 45%;
+    --primary-foreground: 185 85% 2%;
+
+    /* Muted Traces - Darker Teal */
+    --muted: 180 50% 15%;
+    --muted-foreground: 180 15% 70%;
+
+    /* UI Elements */
+    --card: 185 60% 4%;
+    --card-foreground: 180 20% 98%;
+    --border: 180 50% 12%;
+    
+    /* Specialized Cyan Variables for your config */
+    --cyan: 180 100% 45%;
+    --cyan-glow: 180 100% 60%;
+    --cyan-dark: 180 100% 20%;
+
+    /* Navy variables for the depth of the image */
+    --navy-deep: 185 85% 2%;
+    --navy-light: 185 40% 10%;
+    --navy-lighter: 185 30% 15%;
+    
+    --radius: 0.75rem;
+  }
+}
