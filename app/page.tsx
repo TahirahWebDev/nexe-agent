@@ -5,6 +5,7 @@ import { Button } from '@/components/ui/button';
 import { Zap, Shield, Cpu, Rocket, ArrowRight, Brain, Code, Bot, Sparkles } from 'lucide-react';
 import Layout from '@/components/Layout';
 import { motion } from "framer-motion";
+import Team from "@/components/Team";
 
 const valueProps = [
   {
@@ -206,6 +207,8 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <Team />
 
       {/* Final CTA - The "Terminal Shutdown" Aesthetic */}
       <section className="py-40 relative overflow-hidden bg-[#050505]">
